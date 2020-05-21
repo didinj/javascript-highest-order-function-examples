@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher Order Function</title>
+</head>
+
+<body>
+    <!-- Filter -->
+    <!-- <script>
+        const numbers = [-4, 9, 4, -1, -5, 8, 2, 3, -9];
+
+        // const newNumbers = numbers.filter(function (n) {
+        //     return n >= 3;
+        // });
+
+        // filter with arrow function
+        const newNumbers = numbers.filter(n => n >= 3);
+
+        console.log(newNumbers);
+    </script> -->
+
+    <!-- Map -->
+    <!-- <script>
+        const numbers = [-4, 9, 4, -1, -5, 8, 2, 3, -9];
+
+        const newNumbers = numbers.map(n => n * 2);
+
+        console.log(numbers);
+        console.log(newNumbers);
+    </script> -->
+
+    <!-- Reduce -->
+    <!-- <script>
+        const numbers = [-4, 9, 4, -1, -5, 8, 2, 3, -9];
+
+        const newNumber = numbers.reduce((accumulator, currentValue) => accumulator + currentValue);
+
+        console.log(newNumber);
+    </script> -->
+
+    <!-- Chaining -->
+    <script>
+        const numbers = [-4, 9, 4, -1, -5, 8, 2, 3, -9];
+
+        const total = numbers.filter(n => n > 3) // will return 9, 4, 8
+            .map(n => n * 2) // will return 18, 8, 16
+            .reduce((accum, current) => accum + current); // will return 42
+
+        console.log(total);
+    </script>
+</body>
+
+</html>
